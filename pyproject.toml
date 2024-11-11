@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "check_nexus"  # dls_check_nexus? i16_check_nexus? dls_mmg_check_nexus?
 dynamic = ['version']
 dependencies = [
-  "h5py",
+  "h5py>=3.11.0",
   "punx"
 ]
 requires-python = ">=3.10"

@@ -1,6 +1,8 @@
 """
 NeXus file validation using punx
 
+https://github.com/prjemian/punx
+
 installation
 $ python pip -m install punx
 -- also needed --
