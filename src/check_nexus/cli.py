@@ -30,7 +30,7 @@ def run_check(*args):
         help(check_nexus)
 
 
-def cli_checknexus():
+def cli_check_nexus():
     """command line argument"""
     run_check(*sys.argv)
 
