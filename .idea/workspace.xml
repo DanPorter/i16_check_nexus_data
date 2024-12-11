@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2825e5cf-161f-4c04-9e70-82eb71982028" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/i16_check_nexus_data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check_i16_nexus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nexus_validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_nexus/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_nexus/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_nexus/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_nexus/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_nexus/metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_nexus/validate.py" afterDir="false" />
+    <list default="true" id="2825e5cf-161f-4c04-9e70-82eb71982028" name="Changes" comment="improve docs">
+      <change afterPath="$PROJECT_DIR$/examples/test_dat_file_conversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/check_nexus/dat_file_comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/i16_check_nexus_data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/i16_check_nexus_data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check_nexus/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/check_nexus/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +40,13 @@
   "keyToString": {
     "Python.check_i16_nexus (1).executor": "Run",
     "Python.check_i16_nexus.executor": "Run",
+    "Python.dat_file_comparison.executor": "Run",
+    "Python.example.executor": "Run",
     "Python.nexus_validator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/grp66007/OneDrive - Diamond Light Source Ltd/PythonProjects/i16_check_nexus_data"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/grp66007/OneDrive - Diamond Light Source Ltd/PythonProjects/xas-simulator"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,29 +54,7 @@
       <recent name="C:\Users\grp66007\OneDrive - Diamond Light Source Ltd\PythonProjects\i16_check_nexus_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.check_i16_nexus">
-    <configuration name="check_i16_nexus (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="i16_check_nexus_data" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_i16_nexus.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.dat_file_conversion">
     <configuration name="check_i16_nexus" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="i16_check_nexus_data" />
       <option name="ENV_FILES" value="" />
@@ -101,6 +69,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\grp66007\OneDrive - Diamond Light Source Ltd\PythonProjects\i16_check_nexus_data\check_i16_nexus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dat_file_comparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="i16_check_nexus_data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/check_nexus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/check_nexus/dat_file_comparison.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dat_file_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="i16_check_nexus_data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/dat_file_conversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="i16_check_nexus_data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,10 +162,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_dat_file_conversion.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="i16_check_nexus_data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/examples/test_dat_file_conversion.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dat_file_conversion" />
+        <item itemvalue="Python tests.Python tests in test_dat_file_conversion.py" />
+        <item itemvalue="Python.dat_file_comparison" />
+        <item itemvalue="Python.example" />
         <item itemvalue="Python.nexus_validator" />
-        <item itemvalue="Python.check_i16_nexus (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +203,44 @@
       <option name="presentableId" value="Default" />
       <updated>1730990069682</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1731325455176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731325455176</updated>
+    </task>
+    <task id="LOCAL-00002" summary="improve docs">
+      <option name="closed" value="true" />
+      <created>1731328485309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731328485309</updated>
+    </task>
+    <task id="LOCAL-00003" summary="improve docs">
+      <option name="closed" value="true" />
+      <created>1731328567237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731328567237</updated>
+    </task>
+    <task id="LOCAL-00004" summary="improve docs">
+      <option name="closed" value="true" />
+      <created>1731331956048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731331956048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="improve docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve docs" />
   </component>
 </project>
